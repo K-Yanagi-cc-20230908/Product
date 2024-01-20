@@ -15,6 +15,7 @@ services:
     build: ./docker/php/
     volumes:
       - .:/var/www
+    working_dir: /var/www
   db:
     image: mysql:8.1
     container_name: db

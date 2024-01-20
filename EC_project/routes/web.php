@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+include('yana.php');
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
