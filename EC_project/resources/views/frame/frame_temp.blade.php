@@ -3,7 +3,9 @@
 @section('header')
     <div class="header_left">
         <div class="header_logo">
-            <img src="{{asset('./img/yana_logo.JPG')}}" class="header_logo_img">
+            <a href="{{route('homepage')}}" class="header_logo_link">
+                <img src="{{asset('./img/yana_logo.JPG')}}" class="header_logo_img">
+            </a>
         </div>
     </div>
     <div class="header_center"></div>
@@ -33,8 +35,16 @@
     <div class="footer_center"></div>
     <div class="footer_right">
         <ul class="footer_menus">
-            <li class="footer_menu">戻る</li>
-            <li class="footer_menu">ホームページに戻る</li>
+            <li class="footer_menu">
+                <a href="#" class="link">
+                    戻る
+                </a>
+            </li>
+            <li class="footer_menu">
+                <a href="{{route('homepage')}}" class="link">
+                    ホームページに戻る
+                </a>
+            </li>
         </ul>
     </div>
 @endsection

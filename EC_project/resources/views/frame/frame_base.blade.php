@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>@yield('title')</title>
+        <link rel="stylesheet" href="{{asset('css/homepage.css')}}">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         @yield('css')
         @yield('js')

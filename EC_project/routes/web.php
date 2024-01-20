@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 include('yana.php');
+include('zunda.php');
 
 /*
 |--------------------------------------------------------------------------
